@@ -26,7 +26,7 @@ client.on('message', message => {
 
     else if (command === 'مباراة') {
         if (!args.length) {
-            return message.channel.send(`ماحطيت اسم فريق, ${message.author}!`);
+            return message.channel.send(`ماحطيت اسم فريق, ${message.author}`);
         }
         const webUrl = 'https://www.kooora4live.tv/'
 
