@@ -11,6 +11,7 @@ const cheerio = require('cheerio');
 
 client.once('ready', () => {
     console.log('Bot is Running');
+    client.user.setStatus('online', 'Dev. BORDGA')
 });
 
 
