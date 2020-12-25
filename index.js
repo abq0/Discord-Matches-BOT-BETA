@@ -11,7 +11,7 @@ const cheerio = require('cheerio');
 
 client.once('ready', () => {
     console.log('Bot is Running');
-    client.user.setStatus('online', 'Dev. BORDGA')
+    client.user.setStatus('online', 'Dev. BORDGA');
 });
 
 
@@ -26,7 +26,7 @@ client.on('message', message => {
 
     else if (command === 'مباراة') {
         if (!args.length) {
-            return message.channel.send(`معليش ماحطيت اسم فريق, ${message.author}!`);
+            return message.channel.send(`ماحطيت اسم فريق, ${message.author}!`);
         }
         const webUrl = 'https://www.kooora4live.tv/'
 
