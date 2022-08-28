@@ -1,6 +1,5 @@
-# Discord-Matches-BOT-BETA
-- Discord bot to get matches links and info
+- Discord bot to get football matches links and info
 
 THIS BOT IS CREATED BY : ʙ ᴏ ʀ ᴅ ɢ ᴀ#9705 ( discord )
 
-NOTE : IT'S A BETA VERSION SO MIGHT BE SOME MISTAKES :)
+NOTE : BUILT WITHIN OLD DISCORD.JS VERSION , AND IT COULD CONTAINS SOME ERRORS :)
